@@ -1,0 +1,27 @@
+{
+  "name": "mars-rover",
+  "description": "A näive Mars rover simulator.",
+  "version": "0.1.0",
+  "repository": "https://github.com/hyjk2000/mars-rover",
+  "author": "James Shih",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.11.0",
+    "yarn": ">=1.6.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src test"
+  },
+  "dependencies": {
+    "prompt": "^1.0.0",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-jest": "^21.17.0",
+    "jest": "^23.1.0"
+  }
+}

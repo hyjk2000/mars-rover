@@ -1,2 +1,5 @@
 # mars-rover
-A Näive Mars Rover Simulator
+
+A näive Mars rover simulator.
+
+This is a TDD practice given by @JimmyLv.
